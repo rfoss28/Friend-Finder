@@ -14,17 +14,17 @@ module.exports = function(app) {
         var newFriend = req.body;
         var newFriendScores = newFriend.scores;
         
-        // friend match object
       
           var matchName = "";
           var matchPhoto = "";
           var scoreDifference= 100;
       
     
-
+        // loops through each friend
         for (var i = 0; i < friends.length; i++) {
           var totalDifference = 0;
          
+          //loops through each score
           for (var j = 0; j < friends[i].scores.length; j++) {
           
          

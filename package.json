@@ -1,0 +1,21 @@
+{
+  "name": "code",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "express.js": "^1.0.0",
+    "node.js": "0.0.0",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {},
+  "description": ""
+}
